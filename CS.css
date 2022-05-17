@@ -73,7 +73,7 @@ div.social{
 .twitter{
     width: 140px;
     height: 65px;
-    background-color: #00acee;
+    background-color: #246781;
     border-radius: 6px;
     display: flex;
     justify-content: center;
@@ -82,9 +82,12 @@ div.social{
     
 }
 
-.twitter:hover , .discord:hover{
+.twitter:hover, .discord:hover{
     box-shadow: 0 7px rgb(44, 37, 37);
 }
+
+.twitter:hover{background-color: #00acee;}
+.discord:hover{background-color: #5865F2;}
 
 .twitter:active{
     transform: translateY(3px);
@@ -92,13 +95,14 @@ div.social{
 .discord{
     width: 140px;
     height: 65px;
-    background-color: #5865F2;
+    background-color: #242b70;
     border-radius: 6px;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: box-shadow .5s;
 }
+
 
 .twitter:active{
     transform: translateY(3px);
@@ -146,4 +150,7 @@ div.wrapper{
     .twitter, .discord{
         margin-bottom: 20px;
     }
+
+    .twitter{background-color: #00acee;}
+    .discord{background-color: #5865F2;}
 }
